@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    /*scroll-behavior: smooth;
+    --light-shade-color: #fff;
+    --light-accent-color: #f7f7f7;
+    --brand-color: #14a9ee;
+    --dark-accent-color: #505155;
+    --dark-shade-color: #232428;
+    --link-color: #21243d;
+    --link-color-light: #fff;
+    --link-hover-color: #21243d;
+    --link-hover-color-light: #fff;
+    --text-color: #707070;
+    --text-color-light: #fff;*/
+    --light-color:#fff;
+    --text-color:#505155;
+    --secttion-color-light:#6f7380;
+    --section-color-dark:#a7a7a9;
+    --icon-color:#14a9ee;
+    
+}
