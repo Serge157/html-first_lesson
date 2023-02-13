@@ -7,74 +7,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <header class="header">
-        <nav class="header_nav nav">
-            <a href="#">
-                <img src="/img/header_logo.png" alt="header-logo">
+    <header class="header  ">
+        <div class="container">
+            <a class=" logo__mobile" href=" #">
+                <img class="header__logo" src="/img/header_logo.png" alt="header-logo">
             </a>
-            <ul class="nav__menu">
-                <li class="nav__menu-item ">
-                    <a href="#">About Us</a>
-                </li>
-                <li class="nav__menu-item">
-                    <a href="#">Itinerary</a>
-                </li>
-                <li class="nav__menu-item">
-                    <a href="#">Testimonials</a>
-                </li>
-                <li class="nav__menu-item">
-                    <a href="#">Blog</a>
-                </li>
-                <li class="nav__menu-item">
-                    <a href="#">Contacts</a>
-                </li>
-                <li class="nav__menu-item btn__item">
-                    <a href="#">
-                        <span class="btn__item-text">Join US</span>
-                        <span class="btn__item-arrow">--</span>
+            <nav class="header_nav nav">
+                <a class="nav__menu-item logo href=" #">
+                    <img class="header__logo" src="/img/header_logo.png" alt="header-logo">
+                </a>
+                <ul class="nav__menu">
+                    <li class="nav__menu-item ">
+                        <a class="nav__menu-item-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav__menu-item">
+                        <a class="nav__menu-item-link" href="#">Itinerary</a>
+                    </li>
+                    <li class="nav__menu-item">
+                        <a class="nav__menu-item-link" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav__menu-item">
+                        <a class="nav__menu-item-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav__menu-item">
+                        <a class="nav__menu-item-link" href="#">Contacts</a>
+                    </li>
+                    <li class="nav__menu-item ">
+                        <a class="nav__menu-item-link btn__item" href="#">
+                            <span>Join US</span>
+                            <span>→</span>
+                        </a>
+                    </li>
+                </ul>
 
+            </nav>
+            <div class="header__subtitle ">
+                <span class="header__subtitle-arrow">--</span>
+                <p>YOUR PERFECT JOURNEY TO</p>
+            </div>
+            <h1 class="header__title">Norway</h1>
+            <div class="header__title-more">
+                
+                    <img class="youtube__icon" src="img/youtube.svg" alt="Youtube icon">
+                    <a class="header__title-more-link" href="#">
+                        -Watch the promo video!
                     </a>
-                </li>
-            </ul>
-
-        </nav>
-        <div class="header__subtitle ">
-            <span class="header__subtitle-arrow">--</span>
-            <p>YOUR PERFECT JOURNEY TO</p>
-        </div>
-        <h1 class="header__title">Norway</h1>
-        <div class="header__title-more">
-            <div class="header__title-more-svg">
-                <svg width="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                    version="1.1" x="0px" y="0px" viewBox="0 0 80 80" enable-background="new 0 0 80 80"
-                    xml:space="preserve" style="max-width:100%" height="100%">
-                    <g style="" fill="currentColor">
-                        <path
-                            d="M64.622,2.411H14.995c-6.627,0-12,5.373-12,12v49.897c0,6.627,5.373,12,12,12h49.627c6.627,0,12-5.373,12-12V14.411   C76.622,7.783,71.249,2.411,64.622,2.411z M24.125,63.906V15.093L61,39.168L24.125,63.906z"
-                            style="" fill="currentColor"></path>
-                    </g>
-                </svg>
+                </div>
+                <div class="header_promobox">
+                    <div class="videoframe">
+                        <video class="video"   width="250" height="180" controls="controls" poster="/img/header_image.png" src="https://www.youtube.com/watch?v=CxwJrzEdw1U&ab_channel=ScenicRelaxation">
+                            Тут видео 
+                        </video>
+                    </div>
+                    <p class="header__promobox-title">Next Trip to Norway</p>
+                    <p class="header__promobox-subtitle">$2300 | 17 NOV. - 22 NOV.</p>
+                    <p class="header__promobox-text">10 days of travel and 5 unique places in Norway are waiting for us
+                        ...
+                    </p>
+                    <a class="header__promobox-link" href="#">
+                        <p> Read more</p>
+                        <span class="header__promobox-arrow">-</span>
+                    </a>
+                
             </div>
-            <span class="header__title-more-arrow">-</span>
-            <a class="header__title-more-link" href="#">
-                Watch the promo video!
-            </a>
-        </div>
-        <div class="header_promobox">
-            <div>
-                <!-- video frame -->
-            </div>
-            <p class="header__promobox-title">Next Trip to Norway</p>
-            <p class="header__promobox-subtitle">$2300 | 17 NOV. - 22 NOV.</p>
-            <p class="header__promobox-text">10 days of travel and 5 unique places in Norway are waiting for us ...</p>
-            <a class="header__promobox-link" href="#">
-                <p> Read more</p>
-                <span class="header__promobox-arrow">-</span>
-            </a>
-        </div>
     </header>
     <main>
         <section class="section__about">
