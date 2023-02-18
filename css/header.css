@@ -119,8 +119,8 @@
 
 .nav__logo-mobile-burger {
     position: relative;
-    width: 30px;
-    height: 20px;
+    width: 24px;
+    height: 16px;
 }
 
 @media (max-width:991px) {
@@ -150,30 +150,28 @@
 
     .nav__logo-mobile-burger::before {
         top: 0;
-        transition: 0.2s ease-in;
+        transition: .3s ease-in;
     }
 
     .nav__logo-mobile-burger::after {
         bottom: 0;
-        transition: 0.2s ease-in;
+        transition: .2s ease-in;
     }
 
     .nav__logo-mobile-burger.active .burger__arrow {
         scale: 0;
-        transition: 0.2s ease-in;
+        transition: .3s ease-in;
     }
 
     .nav__logo-mobile-burger.active.nav__logo-mobile-burger::before {
-        top: 45%;
+        top: 50%;
         transform: rotate(45deg);
     }
 
     .nav__logo-mobile-burger.active.nav__logo-mobile-burger::after {
         transform: rotate(-45deg);
-        bottom: 45%;
+        bottom: 40%;
     }
-
-
 
     .burger__arrow {
         top: 50%;
