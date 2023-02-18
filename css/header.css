@@ -134,7 +134,7 @@
     }
 
     .nav__logo-mobile-burger::before {
-        top: o;
+        top: 0;
     }
 
     .nav__logo-mobile-burger::after {

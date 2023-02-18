@@ -29,7 +29,7 @@
 }
 .section__itinerary-text{
     color: var(--itinary-text-color);
-    letter-spacing: 0.51;
+    letter-spacing: 0.51px;
     line-height: 28.9px;
     font-weight: 400;
 
