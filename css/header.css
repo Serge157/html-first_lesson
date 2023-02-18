@@ -143,11 +143,6 @@
         cursor: pointer;
     }
 
-    .burger__arrow {
-        scale: 1;
-
-    }
-
     .nav__logo-mobile-burger::before {
         top: 0;
         transition: .3s ease-in;
@@ -159,8 +154,9 @@
     }
 
     .nav__logo-mobile-burger.active .burger__arrow {
-        scale: 0;
+        transform: scale(0);
         transition: .3s ease-in;
+        
     }
 
     .nav__logo-mobile-burger.active.nav__logo-mobile-burger::before {
@@ -209,7 +205,7 @@
     .nav__menu-item {
         margin: 40px;
         font-size: 17px;
-        font-weight: 600px;
+        font-weight: 600;
         text-align: center;
 
     }
