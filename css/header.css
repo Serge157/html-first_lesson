@@ -1,3 +1,4 @@
+/* HEADER CSS CTART */
 .nav__menu-item-link {
     color: var(--light-color);
     font-weight: 600;
@@ -7,16 +8,17 @@
     background-image: url(../img/header_image.png);
     background-position: right;
     background-size: cover;
-    padding-top: 40px;
+    padding-top: 30px;
     min-height: 100vh;
 }
 
 .header__logo {
-    max-width: 188px;
+    max-height: 35px;
 }
 
 .nav__menu-item {
     margin-left: 15px;
+    font-size: 14px;
 }
 
 .btn__item {
@@ -39,21 +41,30 @@
 
 .header__title {
     color: var(--light-color);
-    padding-top: 40px;
+    padding-top: 10px;
     font-family: 'Playfair Display', sans-serif;
     font-weight: 600;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    font-size: 70px;
 }
 
 .header__subtitle {
     color: var(--light-color);
-    padding-top: 80px;
+    padding-top: 110px;
+    font-size: 12px;
+    font-weight: 700;
 }
+
+.header__subtitle-arrow {
+    font-weight: 900;
+    color: var(--arrow-color);
+}
+
 
 .header__title-more {
     color: var(--light-color);
     font-size: 12px;
-    margin-bottom: 60px
+    margin-bottom: 50px;
 }
 
 .header__title-more-link {
@@ -63,31 +74,39 @@
 
 }
 
-.videoframe {
-    border: 4px solid white;
-    width: 255px;
-    height: 185px;
-    border-radius: 5px;
-}
-
 .header__promobox-title {
     color: var(--light-color);
     font-weight: 700;
     margin-top: 15px;
-
 }
 
 .header__promobox-subtitle,
 .header__promobox-text {
     color: var(--light-color);
     font-weight: 500;
-
-    margin-top: 15px;
+    font-size: 12px;
+    margin-top: 25px;
 }
 
-.nav__menu-wrapper {
-    position: fixed;
-    top: -100%;
+.header__promobox-text {
+    margin-bottom: 35px;
+}
+
+.header__promobox-link {
+    margin-top: 35px;
+    color: var(--light-color);
+    font-size: 14px;
+}
+
+.header__promobox-link p {
+    text-decoration: underline;
+    display: inline;
+}
+
+.header__promobox-arrow {
+    color: var(--arrow-color);
+    text-decoration: none;
+    display: inline;
 }
 
 .nav__logo-mobile {
@@ -102,96 +121,76 @@
     height: 20px;
 }
 
-.burger__arrow,
-.nav__logo-mobile-burger::before,
-.nav__logo-mobile-burger::after {
-    content: "";
-    position: absolute;
-    height: 2px;
-    background-color: var(--light-color);
-    width: 100%;
-    cursor: pointer;
+@media (max-width:991px) {
+    .burger__arrow,
+    .nav__logo-mobile-burger::before,
+    .nav__logo-mobile-burger::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        background-color: var(--light-color);
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .nav__logo-mobile-burger::before {
+        top: o;
+    }
+
+    .nav__logo-mobile-burger::after {
+        bottom: 0;
+    }
+
+    .burger__arrow {
+        top: 50%;
+    }
+
+    .nav__menu-wrapper {
+        position: fixed;
+        top: -100%;
+    }
 }
 
-.nav__logo-mobile-burger::before {
-    top: o;
-}
+@media (min-width:768px) {
+    .header__title {
+        font-size: 125px;
+    }
 
-.nav__logo-mobile-burger::after {
-    bottom: 0;
-}
+    .header_promobox {
+        display: flex;
+        justify-content: space-between;
+    }
 
-.burger__arrow {
-   top: 50%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-@media (max-width:992px) {
-    .logo__mobile {
-        display: block;
+    .header_promobox-video {
+        max-width: 300px;
     }
 
 }
-.header__subtitle {
-    color: var(--light-color);
-    padding-top: 80px;
-}
-.header__title {
-    color: var(--light-color);
-    padding-top: 40px;
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 70px;
-    font-weight: 600;
-    margin-bottom: 50px;
-}
-.youtube__icon {
-    max-width: 13px;
-    display: inline;
-    
-}
-.header__title-more {
-    color: var(--light-color);
-    font-size: 12px;
-    margin-bottom: 60px
-    
-}
-.header__title-more-link {
-    color: var(--light-color);
-    text-decoration:underline;
-    font-weight: 700;
-    
-}
-.videoframe {
-    border: 4px solid white;
-    width: 255px;
-    height: 185px;
-    border-radius: 5px;
-}
-.header__promobox-title {
-    color: var(--light-color);
-    font-weight: 700;
-    margin-top: 15px;
 
+@media (min-width:992px) {
+    .header_nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav__menu {
+        display: flex;
+        justify-content: end;
+    }
 }
-.header__promobox-subtitle,
-.header__promobox-text {
-    color: var(--light-color);
-    font-weight: 500;
-    font-size: 12px;
-    margin-top: 15px;
-}
+/* HEADER CSS END */
+
+/* ABOUT US CSS START */
 
 
 
- */
+
+
+
+
+
+/* ABOUT US CSS END */
+
+
+

@@ -1,0 +1,132 @@
+.section__about {
+    padding-top: 90px;
+    padding-bottom: 40px;
+    background-image: url(../img/Background-aboutus1920.jfif);
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-position: bottom;
+
+}
+
+.section__about-title {
+    color: var(--secttion-color-light);
+    font-size: 12px;
+    font-weight: 500px;
+}
+
+.section__about-title-arrow {
+    color: var(--arrow-color);
+    font-weight: 900;
+}
+
+.section__about-textitem-subtitle {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--subtitle-color);
+    letter-spacing: 1.02px;
+    line-height: 40.8px;
+    margin-top: 20px;
+}
+
+.section__about-textitem-subtitle span {
+    color: #14a9ee;
+}
+
+.desktop_rp {
+    margin-top: 50px;
+}
+
+.section__about-textitem {
+    color: var(--subtitle-color);
+    font-size: 19px;
+    font-weight: 400px;
+    line-height: 32.3px;
+}
+
+.section__about-articles {
+    padding-top: 90px;
+    padding-bottom: 150px;
+
+}
+
+.section__about-article {
+    padding: 27px;
+    margin-top: 20px;
+    background-color: white;
+
+
+}
+
+.section__about-article-title {
+    color: var(--article-title-color);
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.step__contact-text,
+.step__pick-text,
+.step__start-text {
+    font-size: 14px;
+    color: var(--subtitle-color);
+}
+
+.step__image {
+    max-width: 50%;
+}
+
+
+@media (min-width:768px) {
+
+    .desktop_rp {
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .section__about-textitem-subtitle {
+        margin-right: 10px;
+    }
+
+    .section__about-textitem {
+        margin-left: 10px;
+    }
+
+    .section__about-articles {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .section__about {
+        padding-top: 90px;
+        padding-bottom: 40px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .step__pick {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .section__about-articles {
+        padding-bottom: 275px;
+    }
+}
+
+@media (min-width:992px) {
+    .step__contact-text,
+    .step__pick-text,
+    .step__start-text {
+        font-size: 15px;
+    }
+
+    .section__about-articles {
+        padding-bottom: 400px;
+    }
+}

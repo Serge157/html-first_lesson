@@ -20,18 +20,24 @@
     --text-color: #707070;
     --text-color-light: #fff;*/
     --light-color: #fff;
+    --arrow-color:#ee2e14;
     --text-color: #505155;
     --secttion-color-light: #6f7380;
     --section-color-dark: #a7a7a9;
     --icon-color: #14a9ee;
+    --subtitle-color:#505155;
+    --article-title-color:#232428;
+    --itinary-text-color:rgba(255,255,255,0.6);
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
+
+    
 }
 .container {
     max-width: 1200px;
     margin: auto;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 img {
     display: block;
