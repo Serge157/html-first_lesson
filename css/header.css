@@ -36,7 +36,6 @@
 .youtube__icon {
     max-width: 13px;
     display: inline;
-
 }
 
 .header__title {
@@ -71,7 +70,6 @@
     color: var(--light-color);
     text-decoration: underline;
     font-weight: 700;
-
 }
 
 .header__promobox-title {
@@ -128,10 +126,6 @@
         overflow: hidden;
     }
 
-    /* transition: opacity .2s ease-in */
-
-
-
     .burger__arrow,
     .nav__logo-mobile-burger::before,
     .nav__logo-mobile-burger::after {
@@ -142,9 +136,9 @@
         width: 100%;
         cursor: pointer;
     }
+
     .burger__arrow {
         top: 43%;
-        
     }
 
     .nav__logo-mobile-burger::before {
@@ -160,7 +154,6 @@
     .nav__logo-mobile-burger.active .burger__arrow {
         transform: scale(0);
         transition: .3s ease-in;
-        
     }
 
     .nav__logo-mobile-burger.active.nav__logo-mobile-burger::before {
@@ -173,19 +166,15 @@
         bottom: 40%;
     }
 
-    
-
     .nav__menu-wrapper {
         position: fixed;
         top: -100%;
     }
 
     .nav__menu-wrapper.active {
-       
         top: 0;
         left: 0;
         transition: .3s ease-in;
-
     }
 
     .nav__menu-wrapper {
@@ -204,13 +193,11 @@
         margin-top: 150px;
     }
 
-
     .nav__menu-item {
         margin: 40px;
         font-size: 17px;
         font-weight: 600;
         text-align: center;
-
     }
 
 
@@ -245,9 +232,6 @@
     }
 }
 
-/* HEADER CSS END */
-
-/* ABOUT US CSS START */
 
 
 
