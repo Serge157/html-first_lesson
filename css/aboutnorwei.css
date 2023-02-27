@@ -1,13 +1,14 @@
-
-.section__aboutnorwei{
+.section__aboutnorwei {
     padding: 90px 0 60px 0;
 }
+
 .section__aboutnorwei-title {
     color: var(--secttion-color-light);
     font-size: 12px;
     font-weight: 500;
     margin-top: 50px;
 }
+
 .section__aboutnorwei-subtitle {
     font-family: 'Playfair Display', sans-serif;
     font-size: 34px;
@@ -18,6 +19,7 @@
     margin-top: 20px;
     margin-top: 20px;
 }
+
 .section__aboutnorwei-text {
     color: var(--subtitle-color);
     font-size: 19px;
@@ -25,6 +27,7 @@
     line-height: 32.3px;
     margin-top: 50px;
 }
+
 .counter__value {
     display: block;
     font-size: 60px;
@@ -32,6 +35,7 @@
     font-weight: 500;
     text-align: center;
 }
+
 .counter__description {
     color: var(--subtitle-color);
     font-size: 14px;
@@ -39,15 +43,64 @@
     line-height: 32.3px;
     display: block;
     text-align: center;
-    
+
 }
+
 .quote {
     padding: 3px 29px 3px 29px;
 }
+
 .section__aboutnorwei-counters {
     padding-top: 30px;
 }
+
 .counter {
     margin-top: 50px;
 }
 
+@media (min-width:768px) {
+    .section__aboutnorwei .container {
+        display: grid;
+        grid-template-columns: repeat(3, [col] 1fr);
+        grid-template-rows: repeat(3, [row] auto);
+        grid-gap: 7px;
+    }
+
+    .section__aboutnorwei-image {
+        grid-column: col 1 / col 2;
+        grid-row: row 1 / row 3;
+        align-self: center;
+
+    }
+
+    .title__wrapper {
+        grid-column: col 2 / col 3;
+        grid-row: row 1 / row 3;
+
+    }
+
+    .text__forests {
+        grid-column: col 3 / col 4;
+        grid-row: row 1 / row 2;
+    }
+
+    .text__landscapes {
+        grid-column: col 3 / col 4;
+        grid-row: row 2 / row 3;
+    }
+
+    .section__aboutnorwei-counters {
+        grid-column: col 1/ col 4;
+        grid-row: row 3/ row 4;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (min-width:991px) {
+    .section__aboutnorwei-counters {
+        display: flex;
+        justify-content: space-between;
+    }
+}
