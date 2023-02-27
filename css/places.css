@@ -1,0 +1,137 @@
+.section__places-title {
+    color: var(--secttion-color-light);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.section__places-title span {
+    color: var(--arrow-color);
+    font-weight: 900;
+}
+
+.section__places-subtitle {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--subtitle-color);
+    letter-spacing: 1.02px;
+    line-height: 40.8px;
+    margin-top: 20px;
+
+}
+
+.section__places-text {
+    color: var(--subtitle-color);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32.3px;
+    margin-top: 50px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: start;
+    position: relative;
+    margin-bottom: 25px;
+
+}
+
+.nav__list::after {
+    top: 58px;
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    content: "";
+    background-color: #e4e4e5;
+}
+
+.nav__list-item {
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.51px;
+    line-height: 28.9px;
+    color: #969799;
+    padding: 15px 20px 15px 20px;
+    white-space: nowrap;
+    position: relative;
+}
+
+.nav__list-item:hover {
+    color: var(--subtitle-color);
+    cursor: pointer;
+}
+
+.nav__list-item:active::after {
+    top: 56px;
+    left: 0;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    content: "";
+    background-color: red;
+
+}
+
+.city__description-title {
+    font-size: 12px;
+    color: var(--secttion-color-light);
+    font-weight: 500;
+    letter-spacing: 0.36px;
+    line-height: 1.6em;
+
+}
+
+.city__description-subtitle {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--subtitle-color);
+    letter-spacing: 1.02px;
+    line-height: 40.8px;
+
+}
+
+.time {
+    color: red;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.6em;
+    display: block;
+}
+
+.position {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.6em;
+    color: var(--subtitle-color);
+    display: block;
+}
+.city__description-text {
+    line-height: 1.6em;
+    letter-spacing: 0.51px;
+    color: #797b79;
+
+}
+.city__description-advantages img {
+    max-width: 20px;
+    max-height: 24px;
+    display: inline;
+    transform: translateY(4px);
+
+}
+.city__description-advantages span {
+    color: var(--subtitle-color);
+    font-size: 14px;
+
+}
+.city__description-button {
+    padding: 14px 20px 14px 20px;
+    background-color: #14a9ee;
+    color: var(--light-color);
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    display: inline-block;
+    margin: 10px;
+
+}
