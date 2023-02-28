@@ -17,7 +17,6 @@
     letter-spacing: 1.02px;
     line-height: 40.8px;
     margin-top: 20px;
-
 }
 
 .section__places-text {
@@ -31,9 +30,14 @@
 .tabs__wrapper-nav {
     display: flex;
     justify-content: start;
+    flex-wrap: wrap;
     position: relative;
     margin-bottom: 25px;
-
+}
+@media (max-width:635px) {
+    .tabs__wrapper-nav::after {
+        display: none;
+    }
 }
 
 .tabs__wrapper-nav::after {
@@ -44,6 +48,8 @@
     content: "";
     background-color: #e4e4e5;
 }
+
+
 
 .nav__list-item {
     font-size: 17px;
@@ -69,7 +75,6 @@
     width: 100%;
     content: "";
     background-color: red;
-
 }
 
 .city__description-title {
@@ -78,7 +83,6 @@
     font-weight: 500;
     letter-spacing: 0.36px;
     line-height: 1.6em;
-
 }
 
 .city__description-subtitle {
@@ -88,7 +92,6 @@
     color: var(--subtitle-color);
     letter-spacing: 1.02px;
     line-height: 40.8px;
-
 }
 
 .time {
@@ -111,7 +114,6 @@
     line-height: 1.6em;
     letter-spacing: 0.51px;
     color: #797b79;
-
 }
 
 .city__description-advantages img {
@@ -119,13 +121,11 @@
     max-height: 24px;
     display: inline;
     transform: translateY(4px);
-
 }
 
 .city__description-advantages span {
     color: var(--subtitle-color);
     font-size: 14px;
-
 }
 
 .city__description-button {
@@ -138,7 +138,6 @@
     margin: 10px;
     max-width: 150px;
     text-align: center;
-
 }
 
 .tablink__active {
@@ -158,6 +157,7 @@
     z-index: 2;
 }
 
+
 #Trondheim_card,
 #bodo_card,
 #lofoten_card,
@@ -165,19 +165,17 @@
     display: none;
 }
 
-
-
 .oslo {
     display: flex;
 }
 
-
-
+.tabs__wrapeer-card {
+    flex-direction: column;
+}
 
 .city__image {
-    border: 1px solid black;
-    height: 300px;
-    width: 100%;
+    display: block;
+    height:350px ;
     background-size: cover;
     background-position: center;
 }
@@ -202,14 +200,36 @@
     background-image: url(../img/places-img/trosmo.jfif);
 }
 
-
-.tabs__wrapeer-card {
+.city__description {
+    padding: 25px 35px 40px 35px;
     display: flex;
     flex-direction: column;
-
+    justify-content: space-between;
+    
 }
-
+.city__description-accom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.city__description h5,
+div {
+    margin-bottom: 30px;
+}
 @media (min-width:768px) {
+    .tabs__wrapeer-card{
+        flex-direction: row;
+    }
+    .city__image {
+        min-width: 50%;
+        height: 700px;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+}
+/* @media (min-width:768px) {
     .city__description {
         padding: 60px 70px 60px 70px;
         display: flex;
@@ -235,4 +255,4 @@
         background-size: contain;
 
     }
-}
+} */
