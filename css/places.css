@@ -106,12 +106,14 @@
     color: var(--subtitle-color);
     display: block;
 }
+
 .city__description-text {
     line-height: 1.6em;
     letter-spacing: 0.51px;
     color: #797b79;
 
 }
+
 .city__description-advantages img {
     max-width: 20px;
     max-height: 24px;
@@ -119,11 +121,13 @@
     transform: translateY(4px);
 
 }
+
 .city__description-advantages span {
     color: var(--subtitle-color);
     font-size: 14px;
 
 }
+
 .city__description-button {
     padding: 14px 20px 14px 20px;
     background-color: #14a9ee;
@@ -134,4 +138,41 @@
     display: inline-block;
     margin: 10px;
 
+}
+
+.tablink__active {
+    position: relative;
+    color: var(--subtitle-color);
+
+}
+
+.tablink__active::after {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: red;
+    top: 57px;
+    left: 0;
+    content: "";
+    z-index: 2;
+}
+
+#Trondheim_card,
+#bodo_card,
+#lofoten_card,
+#tromso_card {
+    display: none;
+}
+.tabs__wrapeer-cards {
+    min-height: 700px;
+}
+.oslo {
+    display: flex;
+}
+.city__description {
+    padding: 60px 70px 60px 70px;
+    display: flex;
+   flex-direction: column;
+   
+    justify-content: space-between;
 }
