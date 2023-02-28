@@ -28,7 +28,7 @@
     margin-top: 50px;
 }
 
-.nav__list {
+.tabs__wrapper-nav {
     display: flex;
     justify-content: start;
     position: relative;
@@ -36,7 +36,7 @@
 
 }
 
-.nav__list::after {
+.tabs__wrapper-nav::after {
     top: 58px;
     position: absolute;
     height: 1px;
@@ -61,7 +61,7 @@
     cursor: pointer;
 }
 
-.nav__list-item:active::after {
+.active::after {
     top: 56px;
     left: 0;
     position: absolute;
