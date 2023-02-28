@@ -135,8 +135,9 @@
     font-size: 14px;
     line-height: 14px;
     font-weight: 700;
-    display: inline-block;
     margin: 10px;
+    max-width: 150px;
+    text-align: center;
 
 }
 
@@ -163,16 +164,75 @@
 #tromso_card {
     display: none;
 }
-.tabs__wrapeer-cards {
-    min-height: 700px;
-}
+
+
+
 .oslo {
     display: flex;
 }
-.city__description {
-    padding: 60px 70px 60px 70px;
+
+
+
+
+.city__image {
+    border: 1px solid black;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.oslo .city__image {
+    background-image: url(../img/places-img/oslo.jfif);
+}
+
+.trondheim .city__image {
+    background-image: url(../img/places-img/trondheim.jfif);
+}
+
+.bodo .city__image {
+    background-image: url(../img/places-img/bodo.jfif);
+}
+
+.lofoten .city__image {
+    background-image: url(../img/places-img/lofoten-islands.jfif);
+}
+
+.tromso .city__image {
+    background-image: url(../img/places-img/trosmo.jfif);
+}
+
+
+.tabs__wrapeer-card {
     display: flex;
-   flex-direction: column;
-   
-    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+@media (min-width:768px) {
+    .city__description {
+        padding: 60px 70px 60px 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .city__description {
+        width: 50%;
+
+    }
+
+    .tabs__wrapeer-cards {
+        display: flex;
+        flex-direction: row;
+        height: 700px;
+    }
+
+    .city__image {
+        border: 1px solid black;
+        height: 700px;
+        width: 50%;
+        background-size: contain;
+
+    }
 }
