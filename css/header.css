@@ -125,7 +125,6 @@
     body.lock {
         overflow: hidden;
     }
-
     .burger__arrow,
     .nav__logo-mobile-burger::before,
     .nav__logo-mobile-burger::after {
@@ -231,13 +230,3 @@
         justify-content: end;
     }
 }
-
-
-
-
-
-
-
-
-
-/* ABOUT US CSS END */

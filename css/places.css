@@ -49,8 +49,6 @@
     background-color: #e4e4e5;
 }
 
-
-
 .nav__list-item {
     font-size: 17px;
     font-weight: 700;
@@ -66,8 +64,6 @@
     color: var(--subtitle-color);
     cursor: pointer;
 }
-
-
 
 .city__description-title {
     font-size: 12px;
@@ -149,7 +145,6 @@
     z-index: 2;
 }
 
-
 #Trondheim_card,
 #bodo_card,
 #lofoten_card,
@@ -218,37 +213,9 @@
         background-size:cover;
         background-repeat: no-repeat;
         background-position: center;
-
     }
 }
 .tabs__wrapeer-cards {
     padding-bottom: 50px;
     
 }
-/* @media (min-width:768px) {
-    .city__description {
-        padding: 60px 70px 60px 70px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .city__description {
-        width: 50%;
-
-    }
-
-    .tabs__wrapeer-cards {
-        display: flex;
-        flex-direction: row;
-        height: 700px;
-    }
-
-    .city__image {
-        border: 1px solid black;
-        height: 700px;
-        width: 50%;
-        background-size: contain;
-
-    }
-} */
